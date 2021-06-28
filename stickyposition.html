@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky position</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            background-color:black;
+            color: #ffff;
+            font-size: 30px;
+            padding: 10px;
+        }
+        nav{
+            background-color: dodgerblue;
+            color: #ffff;
+            font-size: 30px;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            
+        }
+        main{
+           height: 700px;
+           background-color:orange; 
+        }
+        footer{
+            background-color:gray;
+            color: #ffff;
+            text-align: center;
+            padding: 10px;
+        }
+        button{
+            border: none;
+            background-color: greenyellow;
+            padding: 15px;
+            font-size: 15px;
+            position: fixed;
+            bottom: 0;
+            right: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        this  is a  header
+    </header>
+    <nav>
+        this is a navbar
+    </nav>
+    <main>
+
+    </main>
+    <footer>
+        this is a footer
+    </footer>
+    <button>Send Enquiry</button>
+</body>
+</html>

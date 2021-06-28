@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absoluteposition2.html</title>
+    <style>
+        .demo{
+            width: 500px;
+            height: 300px;   
+            position: relative;
+        }
+        img{
+            height: auto;
+            width: 100%;
+        }
+        .left{
+            border: none;
+            background-color:dodgerblue;
+            color: white;
+            font-size: 30px;
+            position: absolute;
+            left: 0px;
+            top: 40%;
+        }
+        .right{
+            border: none;
+            background-color: dodgerblue;
+            color: white;
+            font-size: 30px;
+            position: absolute;
+            right: 0;
+            top: 40%;
+            }
+            .text{
+                position: absolute;
+                top: 40%;
+                color: white;
+                left: 30;
+            }
+        
+    
+    </style>
+</head>
+<body>
+    <div class="demo">
+  <img src="./images/article-ph-1.png" alt="" >
+    <h2 class="text">Hello world</h2>
+    <button class="left">&lt;</button>
+    <button class="right">&gt;</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adjacent sibling selector(+)</title>
+    <style>
+        .first + p{
+            color: red;
+            font-weight: bold;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
+            elit. Sunt ea at repellendus cupiditate ex aperiam illo vel officia necessitatibus excepturi 
+            praesentium error maxime quia, sed ipsa voluptatibus nemo id voluptatum.</p>
+    </div>
+    <p>this is sibling of first division</p>
+    <p>this is another sibling</p>
+</body>
+</html>

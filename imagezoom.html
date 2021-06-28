@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image zoom</title>
+    <style>
+        .container{
+            height: 300px;
+            width: 500px;
+            border: 5px solid gray;
+            overflow: hidden;
+        }
+        .container img{
+            height: 100%;
+            width: 100%;
+        }
+        .container:hover img{
+            transform: scale(1.5);
+            transition: all 3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./images/article-ph-1.png" alt="image not found">
+    </div>
+</body>
+</html>
